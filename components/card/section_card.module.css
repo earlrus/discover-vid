@@ -1,0 +1,20 @@
+.conatiner {
+  color: blue;
+  background: var(--black-50);
+  padding: 0.5rem 0.25rem;
+}
+
+.cardWrapper {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.3rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 2px;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--white-30);
+}

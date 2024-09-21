@@ -1,0 +1,51 @@
+.conatiner {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.motionWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.motionWrapper:hover {
+  z-index: 99;
+}
+
+.smallImg {
+  width: 300px;
+  height: 150px;
+  min-width: 300px;
+  min-height: 150px;
+
+  position: relative;
+}
+
+.mdImg {
+  width: 20px;
+  height: 250px;
+  min-width: 200px;
+  min-height: 250px;
+
+  position: relative;
+}
+
+.largeImg {
+  width: 300px;
+  height: 350px;
+  min-width: 300px;
+  min-height: 250px;
+  object-fit: cover;
+  position: relative;
+}
+
+.cardImg {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  object-position: center;
+  display: block;
+}

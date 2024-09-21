@@ -1,0 +1,73 @@
+.container {
+  height: 100vh;
+}
+
+.modal {
+  position: absolute;
+  width: 800px;
+  left: 0;
+  height: 90vh;
+  right: 0;
+  margin: 0 auto;
+  top: 15%;
+  bottom: 90px;
+  background-color: var(--black-50);
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgb(68, 67, 67);
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.videoPlayer {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(224, 222, 222, 0.3) 0px 30px 60px -30px;
+}
+
+.modalBody {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2em;
+  padding: 1% 5%;
+}
+
+.modalCol1 {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: 1em;
+  height: 25vh;
+  padding-bottom: 2%;
+}
+.modalCol2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.publish {
+  color: rgb(67, 230, 230);
+  font-weight: 400;
+}
+
+.desc {
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.myspan {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(172, 170, 170);
+}
+
+.title {
+  font-size: 20px;
+  line-height: 2em;
+  font-weight: 700;
+}
