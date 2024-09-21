@@ -1,6 +1,7 @@
 .conatiner {
   cursor: pointer;
   margin-top: 1rem;
+  width: 100%;
 }
 
 .motionWrapper {
@@ -48,4 +49,27 @@
   border-radius: 0.375rem;
   object-position: center;
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .smallImg {
+    width: 500px;
+    height: 200px;
+    min-width: 500px;
+    min-height: 200px;
+  }
+
+  .mdImg {
+    width: 500px;
+    height: 250px;
+    min-width: 500px;
+    min-height: 250px;
+  }
+
+  .largeImg {
+    width: 500px;
+    height: 300px;
+    min-width: 500px;
+    min-height: 300px;
+  }
 }
